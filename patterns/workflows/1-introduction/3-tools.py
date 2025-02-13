@@ -53,7 +53,7 @@ system_prompt = "You are a helpful weather assistant."
 
 messages = [
     {"role": "system", "content": system_prompt},
-    {"role": "user", "content": "What's the weather like in Paris today?"},
+    {"role": "user", "content": "What's the weather like in Bergen, Norway today?"},
 ]
 
 completion = client.chat.completions.create(
